@@ -1,5 +1,5 @@
 # pebblejs-typescript-definitions
-Provides TypeScript definitions and constant values for [Pebble.js](https://github.com/pebble/pebblejs) to allow you to write strongly typed Pebble apps using TypeScript.
+Provides [TypeScript](http://www.typescriptlang.org/) definitions and constant values for [Pebble.js](https://github.com/pebble/pebblejs) to allow you to write strongly typed Pebble apps using TypeScript.
 
 ## Usage
 This repository consists of two files:
