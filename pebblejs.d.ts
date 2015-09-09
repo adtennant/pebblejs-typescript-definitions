@@ -231,9 +231,9 @@ declare module pebblejs {
             icon? : string;
         }
 
-        interface IMenuDefinition {
+        interface IMenuDefinition extends IWindowDefinition {
             sections? : IMenuSection[];
-            backgroundColor? : string;
+            //backgroundColor? : string;
             textColor? : string;
             highlightBackgroundColor? : string;
             highlightTextColor? : string;
