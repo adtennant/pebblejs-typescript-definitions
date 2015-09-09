@@ -232,11 +232,11 @@ declare module pebblejs {
         }
 
         interface IMenuDefinition {
-            sections : IMenuSection[];
-            backgroundColor : string;
-            textColor : string;
-            highlightBackgroundColor : string;
-            highlightTextColor : string;
+            sections? : IMenuSection[];
+            backgroundColor? : string;
+            textColor? : string;
+            highlightBackgroundColor? : string;
+            highlightTextColor? : string;
         }
 
         interface IMenuWindowState extends IWindowState {
